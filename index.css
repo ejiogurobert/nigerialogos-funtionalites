@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    margin: 5rem;
+    grid-gap: 10rem;
+    grid-template-columns: 1fr 2fr;
+}
+.tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.search {
+    border: 2px solid #06daaf;
+    background-color: #f8fffd;
+    padding: .5rem;
+}
+select {
+    background-color: #06daaf;
+    color: white;
+    padding: .5rem;
+
+}
